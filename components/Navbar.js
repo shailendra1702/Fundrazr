@@ -73,7 +73,7 @@ export default function NavBar() {
                   zIndex: -1,
                 }}
               >
-                <NextLink href="/">🤝BetterFund</NextLink>
+                <NextLink href="/">🤝FundRazrr</NextLink>
               </Box>
             </Heading>
           </Flex>
@@ -104,7 +104,7 @@ export default function NavBar() {
             {wallet.status === "connected" ? (
               <Menu>
                 <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
-                  {wallet.account.substr(0, 10) + "..."}
+                  Connected
                 </MenuButton>
                 <MenuList>
                   <MenuItem onClick={() => wallet.reset()}>

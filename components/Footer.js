@@ -76,7 +76,7 @@ export default function Footer() {
               zIndex: -1,
             }}
           >
-            <NextLink href="/">🤝BetterFund</NextLink>
+            <NextLink href="/">🤝FundRazrr</NextLink>
           </Box>
         </Heading>
         <Stack direction={"row"} spacing={6}>
@@ -109,7 +109,7 @@ export default function Footer() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>🌐 Made while 💩 by Harsh, Hritvik , Nischal & Aaditya</Text>
+          <Text>🌐 Made By Shailendra, Chittesh, Manthan and Anusha</Text>
           <Stack direction={"row"} spacing={6}>
             <SocialButton label={"Website"} href={"https://harshbadhai.me/"}>
               {" "}

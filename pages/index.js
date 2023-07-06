@@ -292,7 +292,8 @@ export default function Home({ campaigns }) {
             </SimpleGrid>
           ) : (
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10} py={8}>
-              <Skeleton height="25rem" />
+              <Skeleton 
+              height="25rem" />
               <Skeleton height="25rem" />
               <Skeleton height="25rem" />
             </SimpleGrid>
